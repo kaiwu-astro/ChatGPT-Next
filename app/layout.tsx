@@ -10,8 +10,8 @@ import { GoogleTagManager } from "@next/third-parties/google";
 const serverConfig = getServerSideConfig();
 
 export const metadata: Metadata = {
-  title: "NextChat",
-  description: "Your personal ChatGPT Chat Bot.",
+  title: "CHAT",
+  description: "WuKai自建某AI网页代理，仅供WuKai的亲朋好友使用，请勿转发。【小技巧：善用左下角“新的聊天”功能，特别是和AI聊一个新话题，比如问一个和前面对话不相关的问题的时候，可大幅提高结果可靠性，同时节省WuKai的token开销】",
   appleWebApp: {
     title: "NextChat",
     statusBarStyle: "default",
