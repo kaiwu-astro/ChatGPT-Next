@@ -9,9 +9,9 @@ import { getServerSideConfig } from "./config/server";
 import { GoogleTagManager } from "@next/third-parties/google";
 const serverConfig = getServerSideConfig();
 
-export const metadata: Metadata = {
-  title: "NextChat",
-  description: "Your personal ChatGPT Chat Bot.",
+export const metadata = {
+  title: "ChatGPT-Kai",
+  description: "WuKai的自建ChatGPT代理",
   viewport: {
     width: "device-width",
     initialScale: 1,
