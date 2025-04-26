@@ -6,11 +6,12 @@ import { getClientConfig } from "./config/client";
 import type { Metadata, Viewport } from "next";
 import { SpeedInsights } from "@vercel/speed-insights/next";
 import { GoogleTagManager, GoogleAnalytics } from "@next/third-parties/google";
+import { Analytics } from '@vercel/analytics/react';
 import { getServerSideConfig } from "./config/server";
 
 export const metadata: Metadata = {
-  title: "NextChat",
-  description: "Your personal ChatGPT Chat Bot.",
+  title: "CHAT",
+  description: "WuKai自建某AI网页代理",
   appleWebApp: {
     title: "NextChat",
     statusBarStyle: "default",
@@ -54,6 +55,7 @@ export default function RootLayout({
         {serverConfig?.isVercel && (
           <>
             <SpeedInsights />
+            <Analytics />
           </>
         )}
         {serverConfig?.gtmId && (

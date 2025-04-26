@@ -250,8 +250,8 @@ export function SideBar(props: { className?: string }) {
       {...props}
     >
       <SideBarHeader
-        title="NextChat"
-        subTitle="Build your own AI assistant."
+        title="CHAT"
+        subTitle="WuKai自建某AI网页代理，仅供WuKai的亲朋好友使用，请勿转发。【小技巧：善用左下角“新的聊天”功能，特别是和AI聊一个新话题，比如问一个和前面对话不相关的问题的时候，可大幅提高结果可靠性，同时节省WuKai的token开销】"
         logo={<ChatGptIcon />}
         shouldNarrow={shouldNarrow}
       >
